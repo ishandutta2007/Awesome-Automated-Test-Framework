@@ -62,7 +62,7 @@ The following table benchmarks the leading commercial SaaS testing solutions, ra
 
 ## 💻 Open-Source Test Automation Frameworks
 
-The most widely adopted open-source automated test frameworks and libraries, ranked in descending order by GitHub stargazer popularity. Click any star badge to explore stargazers.
+The most widely adopted open-source automated test frameworks and libraries, ranked in descending order by GitHub stargazer popularity. Click any Stars_Badge to explore stargazers.
 
 | 🏆 Rank | 🛠️ Framework | ⭐ Popularity | 💡 Core Focus & Description |
 | :---: | :--- | :---: | :--- |
@@ -108,7 +108,7 @@ We welcome additions, corrections, and improvements from the quality engineering
 2. 🌿 **Create a topic branch**: `git checkout -b add-new-test-framework`.
 3. 📝 **Follow the existing format**:
    - For **SaaS**: Add company size, accurate starting price, and exact free tier/trial limits.
-   - For **Open-Source**: Add GitHub URL, description, and social star badge linked to `/stargazers`.
+   - For **Open-Source**: Add GitHub URL, description, and social Stars_Badge linked to `/stargazers`.
 4. 🧪 **Test formatting**: Verify Markdown rendering and link integrity.
 5. 🚀 **Submit a Pull Request** with a concise explanation of why the framework should be listed.
 
