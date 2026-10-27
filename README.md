@@ -2,13 +2,17 @@
 
 <div align="center">
 
-# Top Automated Test Frameworks & Tools
+![Awesome Automated Test Framework Banner](assets/banner.svg)
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# 🧪 Top Automated Test Frameworks & Quality Tools 🚀
+
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+<a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
-**A Curated Directory of Enterprise SaaS Platforms & Top Open-Source Test Automation Frameworks**
+**A Curated Directory of Enterprise SaaS QA Clouds & Top Open-Source Test Automation Frameworks 🌐**
 
 *Comprehensive Guide to End-to-End (E2E) Testing, Browser Automation, Mobile App QA, API Testing, Performance Testing & Quality Engineering Tooling.*
 
@@ -16,18 +20,20 @@
 
 ---
 
-## Table of Contents
+## 📑 Table of Contents
 
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS & Hosted Test Automation Platforms](#saas--hosted-test-automation-platforms)
-- [Open-Source Test Automation Frameworks](#open-source-test-automation-frameworks)
-- [Framework Comparison & Selection Guide](#framework-comparison--selection-guide)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer & License](#disclaimer--license)
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Hosted Test Automation Platforms](#️-saas--hosted-test-automation-platforms)
+- [💻 Open-Source Test Automation Frameworks](#-open-source-test-automation-frameworks)
+- [🎯 Framework Comparison & Selection Guide](#-framework-comparison--selection-guide)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Community](#-support--community)
+- [📈 Star History](#-star-history)
+- [📜 Disclaimer & License](#-disclaimer--license)
 
 ---
 
-## Sector Overview & Market Dynamics
+## 📊 Sector Overview & Market Dynamics
 
 The global automation testing market is valued at approximately **$37 billion to $40 billion in 2026** (projected to exceed $80 billion by the mid-2030s with a 14–17% CAGR), driven by accelerated CI/CD release cadences, cloud infrastructure migration, and AI-assisted generative test authoring. 
 
@@ -35,11 +41,11 @@ The sector features a **hybrid, moderately fragmented market dynamic**: enterpri
 
 ---
 
-## SaaS & Hosted Test Automation Platforms
+## ☁️ SaaS & Hosted Test Automation Platforms
 
 The following table benchmarks the leading commercial SaaS testing solutions, ranked in descending order by enterprise company size (market valuation / revenue), complete with starting pricing tiers and exact free tier limits.
 
-| Product | Company Size (Valuation / Revenue) | Description | Starting Pricing | Free Tier / Trial Limits |
+| 🏢 Product | 📈 Company Size (Valuation / Revenue) | 📝 Description | 💵 Starting Pricing | 🎁 Free Tier / Trial Limits |
 | :--- | :--- | :--- | :--- | :--- |
 | **[ServiceNow ATF](https://www.servicenow.com/)** | ~$150B Market Cap / ~$13.3B FY25 Revenue | Built-in continuous test automation framework for verifying workflows, UI, and business logic on the Now Platform. | Included at no extra fee with ServiceNow license (ITSM plans start ~$70–$100/user/month). | **Free Forever** via Personal Developer Instances (PDIs) for learning and evaluation; hibernates after 7–10 days of inactivity. |
 | **[Tricentis Tosca](https://www.tricentis.com/products/automate-continuous-testing-tosca)** | $4.5B Valuation (2024 GTCR) / ~$500M ARR | Enterprise AI-driven model-based continuous test automation platform for cross-technology web, mobile, desktop, and SAP systems. | Starts at ~€20,000–€40,000/year for base platform (~$3,000–$5,000/user/year). | **14-day free trial** with full model-based testing features; free guided learning instances via Tricentis Academy. |
@@ -54,11 +60,11 @@ The following table benchmarks the leading commercial SaaS testing solutions, ra
 
 ---
 
-## Open-Source Test Automation Frameworks
+## 💻 Open-Source Test Automation Frameworks
 
 The most widely adopted open-source automated test frameworks and libraries, ranked in descending order by GitHub stargazer popularity. Click any star badge to explore stargazers.
 
-| Rank | Framework | Popularity | Core Focus & Description |
+| 🏆 Rank | 🛠️ Framework | ⭐ Popularity | 💡 Core Focus & Description |
 | :---: | :--- | :---: | :--- |
 | 1 | **[Playwright](https://github.com/microsoft/playwright)** | [![Playwright Stars](https://img.shields.io/github/stars/microsoft/playwright?style=social&color=white)](https://github.com/microsoft/playwright/stargazers) | Modern, fast E2E web testing for Chromium, Firefox, and WebKit from a single API with auto-waiting, network mocking, and multi-language support (JS/TS, Python, Java, .NET). |
 | 2 | **[Puppeteer](https://github.com/puppeteer/puppeteer)** | [![Puppeteer Stars](https://img.shields.io/github/stars/puppeteer/puppeteer?style=social&color=white)](https://github.com/puppeteer/puppeteer/stargazers) | Node.js library providing high-level Chrome/Chromium and Firefox DevTools automation for web scraping, PDF generation, performance profiling, and synthetic testing. |
@@ -78,11 +84,11 @@ The most widely adopted open-source automated test frameworks and libraries, ran
 
 ---
 
-## Framework Comparison & Selection Guide
+## 🎯 Framework Comparison & Selection Guide
 
 To pick the ideal automated test framework for your engineering architecture, consider your primary testing scope:
 
-| Category | Recommended Open-Source Frameworks | Enterprise SaaS Equivalents |
+| 🔍 Category | 🌐 Recommended Open-Source Frameworks | ☁️ Enterprise SaaS Equivalents |
 | :--- | :--- | :--- |
 | **Web Browser End-to-End (E2E)** | Playwright, Cypress, WebdriverIO, TestCafe | Cypress Cloud, mabl, Testim |
 | **Mobile Native & Hybrid Apps** | Appium, Detox (React Native) | BrowserStack Real Device Cloud, Sauce Labs, Perfecto |
@@ -94,21 +100,41 @@ To pick the ideal automated test framework for your engineering architecture, co
 
 ---
 
-## How to Contribute
+## 🤝 How to Contribute
 
 We welcome additions, corrections, and improvements from the quality engineering community!
 
-1. **Fork the repository** to your GitHub account.
-2. **Create a topic branch**: `git checkout -b add-new-test-framework`.
-3. **Follow the existing format**:
+1. 🍴 **Fork the repository** to your GitHub account.
+2. 🌿 **Create a topic branch**: `git checkout -b add-new-test-framework`.
+3. 📝 **Follow the existing format**:
    - For **SaaS**: Add company size, accurate starting price, and exact free tier/trial limits.
    - For **Open-Source**: Add GitHub URL, description, and social star badge linked to `/stargazers`.
-4. **Test formatting**: Verify Markdown rendering and link integrity.
-5. **Submit a Pull Request** with a concise explanation of why the framework should be listed.
+4. 🧪 **Test formatting**: Verify Markdown rendering and link integrity.
+5. 🚀 **Submit a Pull Request** with a concise explanation of why the framework should be listed.
 
 ---
 
-## Disclaimer & License
+## 💖 Support & Community
 
-- **Disclaimer**: This curated list is maintained for educational and informational purposes. Products, pricing plans, and market capitalizations change over time; please consult official vendor websites for real-time commercial contract specifications.
-- **License**: Released under the [MIT License](https://opensource.org/licenses/MIT).
+Thank you so much for exploring and supporting **Awesome-Automated-Test-Framework**! 🎉
+
+If you find this repository valuable for your daily QA engineering, development workflow, or technology evaluations, please consider:
+- ⭐ **Starring** the repository on GitHub to boost visibility.
+- 🍴 **Forking** and contributing your favorite automation tools and benchmarks.
+- 📢 **Sharing** this collection with your engineering teammates and QA networks.
+- ☕ **Buying a coffee / sponsoring** ongoing curation and maintenance via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+Your support keeps this directory up-to-date, accurate, and independent! 🚀
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Automated-Test-Framework&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Automated-Test-Framework&type=date&legend=top-left)
+
+---
+
+## 📜 Disclaimer & License
+
+- ⚠️ **Disclaimer**: This curated list is maintained for educational and informational purposes. Products, pricing plans, and market capitalizations change over time; please consult official vendor websites for real-time commercial contract specifications.
+- ⚖️ **License**: Released under the [MIT License](https://opensource.org/licenses/MIT).
